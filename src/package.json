@@ -1,0 +1,15 @@
+{
+  "name": "tiny-css-classes",
+  "version": "1.0.0",
+  "description": "Reusable CSS Classes",
+  "main": "index.js",
+  "repository": "https://github.com/mkenyon/tiny-css-classes",
+  "author": "Mike Kenyon",
+  "license": "ISC",
+  "scripts": {
+    "build": "lessc index.less dist/index.css"
+  },
+  "devDependencies": {
+    "less": "^2.7.2"
+  }
+}
