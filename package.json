@@ -1,15 +1,13 @@
 {
   "name": "tiny-css-classes",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Reusable CSS Classes",
-  "main": "index.js",
+  "main": "index.scss",
   "repository": "https://github.com/mkenyon/tiny-css-classes",
   "author": "Mike Kenyon",
   "license": "ISC",
   "scripts": {
-    "build": "lessc index.less dist/index.css"
-  },
-  "devDependencies": {
-    "less": "^2.7.2"
+    "build": "sass src/index.scss dist/index.css",
+    "test": "scss-lint src --no-color"
   }
 }

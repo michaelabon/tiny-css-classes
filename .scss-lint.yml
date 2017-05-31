@@ -1,0 +1,4 @@
+---
+linters:
+  ImportantRule:
+    enabled: false
